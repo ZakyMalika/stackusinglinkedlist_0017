@@ -44,5 +44,7 @@ void pop() {
 }
 
 void peek() {
-	if
+	if (top == NULL) {
+		cout << "List is empty." << endl;
+	}
 }
