@@ -25,5 +25,6 @@ public:
 
 // push operation: insert an element onto the top of stack
 int push(int value) {
-
+	Node* newNode = new Node();
+	newNode->
 }
