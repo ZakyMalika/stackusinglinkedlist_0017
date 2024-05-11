@@ -65,5 +65,6 @@ bool isEmpty() {
 int main() {
 	Stack stack;
 
-	int choice = o
+	int choice = 0;
+	int value;
 }
