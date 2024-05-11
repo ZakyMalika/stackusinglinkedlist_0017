@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 //NOde class representing a single node in the linked list
@@ -36,5 +37,12 @@ int push(int value) {
 
 // pop operation: 
 void pop() {
-	if 
+	if (isEmpty()) {
+		cout << "Stack is Empty." << endl;
+	}
+	cout << "Popped value: " << top->data << endl;
+}
+
+void peek() {
+	if
 }
