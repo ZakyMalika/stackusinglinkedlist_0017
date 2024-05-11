@@ -15,4 +15,5 @@ public:
 // stack class
 class Stack {
 private:
+	Node* top;
 };
